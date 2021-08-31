@@ -1,0 +1,27 @@
+@media only screen and (min-width: 768px) {
+  .columna-central {
+    width: 18em;
+  }
+}
+
+
+.modal-bienvenida {
+  display: grid;
+  position: absolute;
+  left: 35%;
+  top: 40%;
+}
+
+.modal-bienvenida .modal-dialog {
+  margin: unset;
+  max-width: unset;
+  display: flex;
+  width: 30%;
+  height: 20%;
+} 
+
+.modal-bienvenida .modal-body {
+  background-color: #f1f1f1;
+  display: grid;
+  /* align-content: center; */
+}

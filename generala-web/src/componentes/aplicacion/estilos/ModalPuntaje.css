@@ -1,0 +1,15 @@
+.cuerpo-tabla-puntaje {
+  height: auto;
+  background-color: #d6d6d6;
+}
+
+.contenido-tabla-puntaje {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .cuerpo-tabla-puntaje .card-body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
